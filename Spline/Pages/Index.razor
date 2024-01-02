@@ -1,0 +1,34 @@
+﻿@page "/"
+
+@using Syncfusion.Blazor.Charts
+
+<SfChart Title="Sales History of Product X">
+
+    <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
+
+    <ChartSeriesCollection>
+        <ChartSeries DataSource="@SalesReports" XName="X" YName="YValue" Type="ChartSeriesType.Spline"></ChartSeries>
+    </ChartSeriesCollection>
+
+</SfChart>
+
+@code {
+
+    public class ChartData
+    {
+        public string X { get; set; }
+        public double YValue { get; set; }
+    }
+
+    public List<ChartData> SalesReports = new List<ChartData>
+    {
+        new ChartData { X= "USA", YValue= 20 },
+        new ChartData { X= "GBR", YValue= 27 },
+        new ChartData { X= "CHN", YValue= 26 },
+        new ChartData { X= "UK", YValue= 40 },
+        new ChartData { X= "AUS", YValue= 26 },
+        new ChartData { X= "IND", YValue= 10 },
+        new ChartData { X= "DEN", YValue= 26 },
+        new ChartData { X= "MEX", YValue= 35 },
+    };
+}

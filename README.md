@@ -4,7 +4,7 @@ This article explains how to create a spline chart in Blazor Chart Component.
 
 **Creating spline chart in Blazor chart**
 
-[Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) has various chart types which includes [Spline Chart](https://www.syncfusion.com/blazor-components/blazor-charts/chart-types/spline-chart). It connects the data points with smooth curves. to render a spline chart, set the series [Type ](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_Type)as [Spline](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeriesType.html#Syncfusion_Blazor_Charts_ChartSeriesType_Spline).
+[Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) has various chart types which includes [Spline Chart](https://www.syncfusion.com/blazor-components/blazor-charts/chart-types/spline-chart). It connects the data points with smooth curves. To render a spline chart, set the series [Type ](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_Type)as [Spline](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeriesType.html#Syncfusion_Blazor_Charts_ChartSeriesType_Spline).
 
 The following code example illustrates this.
 

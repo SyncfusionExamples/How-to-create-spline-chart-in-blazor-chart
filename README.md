@@ -1,10 +1,10 @@
 # How-to-create-spline-chart-in-blazor-chart
 
-This article explains how to create spline chart in Blazor Chart Component.
+This article explains how to create a spline chart in Blazor Chart Component.
 
-**Creating Spline chart in Blazor chart**
+**Creating spline chart in Blazor chart**
 
-[Blazor chart](https://www.syncfusion.com/blazor-components/blazor-charts) has various chart types which includes [Spline Chart](https://www.syncfusion.com/blazor-components/blazor-charts/chart-types/spline-chart). It connects the data points with smooth curves. to render a spline chart, set the series [Type ](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_Type)as [Spline](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeriesType.html#Syncfusion_Blazor_Charts_ChartSeriesType_Spline).
+[Blazor Chart](https://www.syncfusion.com/blazor-components/blazor-charts) has various chart types which includes [Spline Chart](https://www.syncfusion.com/blazor-components/blazor-charts/chart-types/spline-chart). It connects the data points with smooth curves. To render a spline chart, set the series [Type ](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeries.html#Syncfusion_Blazor_Charts_ChartSeries_Type)as [Spline](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartSeriesType.html#Syncfusion_Blazor_Charts_ChartSeriesType_Spline).
 
 The following code example illustrates this.
 
@@ -19,7 +19,7 @@ The following code example illustrates this.
     <ChartPrimaryXAxis ValueType="Syncfusion.Blazor.Charts.ValueType.Category"></ChartPrimaryXAxis>
 
     <ChartSeriesCollection>
-        <ChartSeries DataSource="@SalesReports" XName="X" YName="YValue" Type="ChartSeriesType.Column"></ChartSeries>
+        <ChartSeries DataSource="@SalesReports" XName="X" YName="YValue" Type="ChartSeriesType.Spline"></ChartSeries>
     </ChartSeriesCollection>
 
 </SfChart>
@@ -46,7 +46,6 @@ The following code example illustrates this.
 }
 
 ```
-
 
 ​The following image screenshot illustrates this.
 
